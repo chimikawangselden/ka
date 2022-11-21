@@ -1,0 +1,58 @@
+.container {
+  width: 50%;
+  padding: 10px;
+  margin: 100px;
+  background-color:rosybrown;
+  border-radius: 10px;
+  
+}
+input {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  width: 20%;
+  background-color:darksalmon;  
+  margin-top: 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.hide {
+  display: none;
+}
+.container small{
+  color: rgb(240, 54, 17);
+}
+
+
+/* Responsive layout - when screen size is 1100 at max*/
+@media screen and (max-width: 1100px) {
+  .container1 {
+    width: 60%;
+    margin-top: 0;
+  }
+  .col-1 {
+    width: 30%;
+  }
+  .col-2 {
+    width: 60%;
+  }
+}
+/* Responsive layout - when screen size is 800 at max*/
+@media screen and (max-width: 800px) {
+  .container1 {
+    width: 80%;
+    margin-top: 0;
+  }
+  .col-1,
+  .col-2 {
+    width: 70%;
+  }
+}
